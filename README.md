@@ -1,1 +1,3 @@
 # ImSitu-eda
+
+To select images for a subset of ImSitu, you have two options. One is by using the file directory and browsing the GUI interface, and the other is by using the dataset's meta-data, specifically its annotation files. Before utilizing the meta-data, decide which activity (verb) or elements (such as agent, place, item, etc.) you want to include. For instance, if you want to create a subset that consists of pictures of people dusting, you would search for images where the "agent" is "n10787470" for "Woman" and "n10287213" for "Man", and the "verb" is "Dusting". These codes and their descriptions can be found in the "imsitu_space.json" file.
